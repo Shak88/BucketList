@@ -15,6 +15,7 @@
 		F700B473287CBE6F0026437D /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F700B472287CBE6F0026437D /* EditView.swift */; };
 		F700B475287DCD880026437D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = F700B474287DCD880026437D /* Result.swift */; };
 		F700B477287DE8C60026437D /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F700B476287DE8C60026437D /* ContentView-ViewModel.swift */; };
+		F700B479287DF0F60026437D /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F700B478287DF0F60026437D /* FileManager-DocumentsDirectory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		F700B472287CBE6F0026437D /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		F700B474287DCD880026437D /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		F700B476287DE8C60026437D /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
+		F700B478287DF0F60026437D /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				F700B462287370830026437D /* BucketListApp.swift */,
 				F700B464287370830026437D /* ContentView.swift */,
+				F700B478287DF0F60026437D /* FileManager-DocumentsDirectory.swift */,
 				F700B476287DE8C60026437D /* ContentView-ViewModel.swift */,
 				F700B472287CBE6F0026437D /* EditView.swift */,
 				F700B474287DCD880026437D /* Result.swift */,
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F700B465287370830026437D /* ContentView.swift in Sources */,
+				F700B479287DF0F60026437D /* FileManager-DocumentsDirectory.swift in Sources */,
 				F700B477287DE8C60026437D /* ContentView-ViewModel.swift in Sources */,
 				F700B475287DCD880026437D /* Result.swift in Sources */,
 				F700B471287CB2090026437D /* Location.swift in Sources */,
@@ -285,6 +289,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BucketList/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -313,6 +318,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BucketList/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
